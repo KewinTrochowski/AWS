@@ -25,7 +25,7 @@ Bezpieczeństwo dostępu do danych: Skonfigurowaliśmy polityki IAM, aby zapewni
 #### Proces:
 1. Stworzenie roli IAM z odpowiednimi uprawnieniami do dostępu do S3 i EMR.
     
-2. Przypisanie roli do użytkowników i zasobów.
+2. Utworzenie IAM user z odpowiednimi do pracy uprawnieniami.
 
 
 ### 3. Konfiguracja AWS EMR
@@ -54,7 +54,7 @@ Zintegrowaliśmy EMR Studio z Jupyter Notebook w celu przeprowadzania interaktyw
 
 ![img_2.png](img_2.png)
 
-## Proces Technologiczny
+## Workflow
 
 1. **AWS S3**: Przechowywanie danych (zdjęć).
 2. **AWS IAM**: Zarządzanie dostępem do zasobów.
